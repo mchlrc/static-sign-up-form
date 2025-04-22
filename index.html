@@ -7,6 +7,74 @@
     <title>Odin Sign-Up</title>
   </head>
   <body>
-    <p>red</p>
+    <div class="splash-left">
+      <div class="logo-row">
+        <div><img class="logo" src="./images/m-logo.svg" /></div>
+        <div class="site-name">MiSite</div>
+      </div>
+    </div>
+    <div class="splash-right">
+      <div class="content hero-text">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <form name="sing-up" method="post">
+        <div class="form-container">
+          <p class="hero-text">Let's do this!</p>
+          <div class="form-row">
+            <div class="form-col">
+              <label for="first-name">FIRST NAME</label>
+              <input id="first-name" type="text" value="" name="first-name" />
+            </div>
+            <div class="form-col">
+              <label for="last-name">LAST NAME</label>
+              <input id="last-name" type="text" value="" name="last-name" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-col">
+              <label for="email-address">EMAIL</label>
+              <input
+                id="email-address"
+                type="email"
+                value=""
+                name="email-address"
+              />
+            </div>
+            <div class="form-col">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input
+                id="phone-number"
+                type="number"
+                value=""
+                name="phone-number"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-col">
+              <label for="name">PASSWORD</label>
+              <input id="first-name" type="text" value="" name="first-name" />
+            </div>
+            <div class="form-col">
+              <label for="name">CONFIRM PASSWORD</label>
+              <input id="first-name" type="text" value="" name="first-name" />
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <button type="submit">Create Account</button>
+        </div>
+      </form>
+      <div class="content">
+        <p>
+          Already have an account? <a href="http://127.0.0.1:5500/">Log in</a>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
