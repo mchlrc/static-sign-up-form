@@ -1,2 +1,3 @@
-# odin-sign-up-form
-The Odin Project sign up form project.
+# static-sign-up-form
+
+This is a static layout for a sign-up form.
